@@ -163,4 +163,4 @@ In this context, **`evaluation`** is the most recent reviewing result for the le
 *NOTE*: All the numbers in the algorithm are determined after testing with hundreds of evaluation sets.
 
 ## Contact
-If you have any questions or suggestions regarding the algorithm, feel free to [email Haytham Tang](mailto: yunxuant@umich.edu).
+If you have any questions or suggestions regarding the algorithm, feel free to [email Haytham Tang](mailto:yunxuant@umich.edu?subject=Algorithm).
