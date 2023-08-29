@@ -10,7 +10,7 @@ There are three main inputs for this algorithm:
 * **`evaluation`**  
 * **`alg`**  
 
-###**`reviewRecord`**
+### **`reviewRecord`**
 ---   
 **`reviewRecord`** refers to a particular learner's historical interaction results of the relative target (fc/lm). This contains the number of times of:  
 
@@ -25,7 +25,7 @@ Moreover, for a multiple-choice-question card, **`reviewRecord`** also includes 
 2. Answered the card **incorrect** 
 3. **Skipped** answering  
 
-###**`evaluation`**:  
+### **`evaluation`**:  
 ---
 In this context, **`evaluation`** is the most recent reviewing result for the learner. There are two parts of the evaluation: the **swipeResult** and the **tapResult**. When the target is learning moment, we would only record the **`evaluation`** of the first card (i.e.: the first card displayed of a learning moment)
 
@@ -33,7 +33,7 @@ In this context, **`evaluation`** is the most recent reviewing result for the le
 
 **tapResult**: Only available for a multiple-choice-question card. It is one of the three *"objective"* evaluations of the card, which could be **correct**, **incorrect**, and **skipped**.  
 
-###**`alg`**:  
+### **`alg`**:  
 ---
 **`alg`** stores the scheduling state and information of the target. It contains three parts: **memFactor**, **interval**, and **nextReview**.  
 
